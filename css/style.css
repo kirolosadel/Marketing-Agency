@@ -1,0 +1,290 @@
+body{
+	/*height: 1000px;*/
+}
+/* start navbar */
+.navSection .navbar-default{
+	background:linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+.navSection .navbar{
+	border-radius: 0px;
+	border: none;
+}
+
+
+.navbar-default .navbar-brand{
+    
+    	color:#fff !important; 
+    	margin-top: -8px;
+}
+
+.navSection .navbar-default .navbar-nav li a{
+	color:	#fff;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+body{
+	margin-top: 50px;
+}
+.navSection .navbar-default .navbar-nav li a:hover{
+	background-color:red;
+}
+.navSection .navbar-default .navbar-toggle .icon-bar{
+	background-color:#fff;
+}
+
+.navSection .navbar-collapse {
+	border: none;
+	box-shadow:none;
+	
+}
+
+.banner {
+	background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+	position: relative;
+	color: #fff;
+	margin-top: 50px;
+}
+
+.banner .text {
+	padding-left: 100px;
+}
+
+.banner p:first-of-type{
+	font-weight: 600;
+	padding-top: 150px
+}
+.banner p:last-of-type{
+	text-transform: capitalize
+}
+.banner .hey {
+	padding-top: 70px;
+}
+
+.banner .wave {
+	width:100%;
+	height: 80%;
+}
+/* end nav */ 
+
+/*start services us */
+.services {
+	padding: 80px 0;
+	color:#2c5364;
+}
+.services .h1custom {
+	font-size: 45px;
+	letter-spacing: 8px;
+	color:;
+	font-weight: 600;
+	margin-bottom:50px;
+	
+}
+
+.item {
+	margin:0 30px ;
+}
+
+.services .item h3 {
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 20px;	
+}
+
+.services .btn-primary {
+	background:linear-gradient(to right, #0f2027, #203a43, #2c5364);
+	border: none;
+	box-shadow: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	margin-top: 50px;
+	
+}
+/* end services us */
+
+/* start about us */ 
+.aboutus {
+	color:#2c5364;
+	background-color: #f8f9fa;
+	margin-bottom: 80px;
+}
+.aboutus p { 
+	padding-top: 50px;
+	font-size: 45px;
+	letter-spacing: 8px;
+	font-weight: 600;
+}
+.aboutus ul{
+	margin-left: 20px;
+	padding-top: 100px;
+	font-weight: bold;
+}
+
+.aboutus ul li { 
+	
+	margin: 15px 0;
+}
+/* end about us */ 
+
+.comm {
+   padding-left: 100px;
+   padding-right: 100px;
+	color:#2c5364;
+	margin-bottom: 100px;
+	margin-top: 180px;
+	
+}
+
+.comm h3 {
+	font-size: 45px;
+	letter-spacing: 8px;
+	font-weight: 600;
+	margin-bottom: 60px;
+}
+.comm p {
+	margin-bottom: 30px;
+} 
+
+
+.carousel-inner{
+	margin-bottom: 10px;
+}
+
+.comment .carousel-indicators{
+   position: static;
+   width: 100%;
+   margin-left:auto;
+   padding-top:30px;
+}
+
+.comment .carousel-indicators li{
+   width: 50px;
+   height: 50px;
+   margin:5px;
+   text-indent: 0px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #fff ;
+    opacity: 0.4;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+   transition: all 1s ease;
+}
+
+.comment .carousel-indicators li.active{
+   background:none;
+   opacity:1;
+}
+
+.comment .carousel-indicators li img{
+   max-width: 100%;
+}
+
+
+/* endcomments */
+
+/* social media */
+.socialmedia  {
+	color:#2c5364;
+	background-color: #f8f9fa;
+
+}
+.socialmedia .social p{
+	margin-top: 70px;
+	margin-bottom: 70px;	
+	font-size: 45px;
+	letter-spacing: 8px;
+	font-weight: 600;
+}
+
+.socialmedia .social div {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.socialmedia .social img {
+	width: 80px;
+	margin: 0 15px;
+	    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+	padding-bottom: 80px;
+}
+
+.socialmedia .social a:hover img{
+	transform: translatey(-20px);	
+}
+/* end social media */ 
+
+/* start footer */ 
+.footer {
+	background:linear-gradient(to right, #0f2027, #203a43, #2c5364);
+	color:#fff;
+}
+
+.footer img{
+	width: 100%;
+}
+
+.footer h3 {
+	margin-top: 0;
+	margin-bottom: 15px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+
+.awl-footer{
+	margin-right: 100px;
+	margin-bottom: 30px;
+}
+.footer .contacus-footer {
+	margin-bottom: 30px;
+
+}
+.footer .contacus-footer p:first-of-type{
+	letter-spacing: 1.5px;
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 15px;	
+}
+.footer .contacus-footer .fa-lg {
+	margin-right: 20px;
+}
+.footer .fnan { 
+
+	margin-left: 3px;
+}
+ .footer hr {
+border: 1px solid #fff;
+	
+}
+
+.footer .contacus-footer .btn-primary{
+	margin-top: 20px;
+	background:linear-gradient(to right, #0f2027, #203a43, #2c5364);
+	border: none;
+	border-radius: 20px;	
+	
+}
+
+/* end footer */ 
+
+
+
+@media (max-width:1291px){
+	.banner p:first-of-type {
+		padding-top: 80px;
+	}
+}
+	
+	
+@media (max-width:991px){
+	.banner .text {
+    	padding-left: 10px;
+		text-align: center;
+	}
+}
